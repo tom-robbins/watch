@@ -28,7 +28,7 @@ echo "installing libbtbb..."
 cd ~
 # wget $LIBBTBB_URL -O $LIBBTBB_FILENAME
 # tar xf $LIBBTBB_FILENAME
-cd libbtbb
+cd ~/libbtbb
 mkdir build
 cd build
 cmake ..
@@ -40,7 +40,7 @@ echo "installing ubertooth..."
 cd ~
 # wget $UBERTOOTH_URL -O $UBERTOOTH_FILENAME
 # tar xf $UBERTOOTH_FILENAME
-cd ubertooth/host
+cd ~/ubertooth/host
 mkdir build
 cd build
 cmake ..
