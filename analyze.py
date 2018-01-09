@@ -60,6 +60,7 @@ class location_server():
                 connection, addr = s.accept()
                 line = connection.recv(1024).decode("ascii")
                 if line:
+                    print line
                     line = line.strip()
                     node = s.getsockname()[1]
                     try:
