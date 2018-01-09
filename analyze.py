@@ -58,19 +58,19 @@ class location_server():
             print inputs
             readable, writable, exceptional = select.select(inputs, [], [])
             for s in readable:
-                print readable
-                connection, addr = s.accept()
-                line = connection.recv(1024)
-                if line:
-                    print line
-                    line = line.strip()
-                    node = s.getsockname()[1]
-                    try:
-                        j = json.loads(line)
-                        device_dict[j['packet']['AdvA']['addr']][node] = j['rssi']
-                        print device_dict
-                    except:
-                        pass
+                if s == self.northeast2:
+                    # connection, addr = s.accept()
+                    line = receive(s)
+                    if line:
+                        print line
+                        line = line.strip()
+                        node = s.getsockname()[1]
+                        try:
+                            j = json.loads(line)
+                            device_dict[j['packet']['AdvA']['addr']][node] = j['rssi']
+                            print device_dict
+                        except:
+                            pass
 
 
 
