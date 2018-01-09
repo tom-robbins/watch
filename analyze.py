@@ -1,5 +1,6 @@
 import json
 import sys
+import select
 import math
 from subprocess import Popen, PIPE
 from collections import defaultdict
@@ -38,23 +39,27 @@ class location_server():
         return math.pow(10, (-40 - rssi)/(10*n))
 
     def start_listeners(self):
-        self.northeast = Popen("nc -l 8000 | sed 's/^/ne: /'", stdout=PIPE, shell=True)
-        self.southeast = Popen("nc -l 8001 | sed 's/^/se: /'", stdout=PIPE, shell=True)
-        self.southwest = Popen("nc -l 8002 | sed 's/^/sw: /'", stdout=PIPE, shell=True)
+        self.northeast = Popen("nc -l 8000", stdout=PIPE, shell=True)
+        self.southeast = Popen("nc -l 8001", stdout=PIPE, shell=True)
+        self.southwest = Popen("nc -l 8002", stdout=PIPE, shell=True)
 
     def keep_track(self):
-        # self.start_listeners()
-        device_dict = defaultdict(dict)
+        self.start_listeners()
 
-        for line in sys.stdin.readlines():
-            line = line.strip()
-            node = line[:2]
-            try:
-                j = json.loads(line[4:])
-            except:
-                continue
-            device_dict[j['packet']['AdvA']['addr']][node] = j['rssi']
-            print device_dict
+        device_dict = defaultdict(dict)
+        while True:
+            readable, writable, exceptional = select.select([self.northeast.stdout, self.southeast.stdout, self.southwest.stdout], [], [])
+            for stream in readable:
+                line = stream.readline()
+                print line
+                # line = line.strip()
+                # node = line[:2]
+                # try:
+                #     j = json.loads(line[4:])
+                # except:
+                #     continue
+                # device_dict[j['packet']['AdvA']['addr']][node] = j['rssi']
+                # print device_dict
 
 
 serv = location_server()
