@@ -66,11 +66,11 @@ class location_server():
                     node = s.getsockname()[1]
                     try:
                         j = json.loads(line)
+                        device_dict[j['packet']['AdvA']['addr']][node] = j['rssi']
+                        print device_dict
                     except:
-                        print "excepted"
-                        continue
-                    device_dict[j['packet']['AdvA']['addr']][node] = j['rssi']
-                    print device_dict
+                        pass
+
 
 
 serv = location_server()
