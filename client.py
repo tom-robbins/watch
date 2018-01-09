@@ -6,10 +6,8 @@ def client(server_ip, server_port):
     PORT = server_port
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((HOST, PORT))
-    msg = 1
-    while msg:
-        msg = sys.stdin.readline()
-        s.send(msg.encode())
+    for line in sys.stdin.readlines():
+        s.send(line.encode())
     s.close()
 
 def main():
