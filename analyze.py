@@ -49,8 +49,6 @@ class location_server():
         for line in iter(self.northeast.stdout.readline, ""):
             line = line.strip()
             node = line[:2]
-            print node
-            print line
             try:
                 j = json.loads(line[4:])
             except:
