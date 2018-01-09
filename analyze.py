@@ -58,7 +58,7 @@ class location_server():
             readable, writable, exceptional = select.select(inputs, [], [])
             for s in readable:
                 connection, addr = s.accept()
-                line = connection.recv(1024).decode("ascii")
+                line = connection.recv(1024)
                 if line:
                     print line
                     line = line.strip()
