@@ -54,7 +54,7 @@ class location_server():
 
         device_dict = defaultdict(dict)
         inputs = [self.northeast2]
-        while inputs:
+        while True:
             print inputs
             readable, writable, exceptional = select.select(inputs, [], [])
             for s in readable:
