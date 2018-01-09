@@ -60,7 +60,7 @@ class location_server():
             for s in readable:
                 if s == self.northeast2:
                     # connection, addr = s.accept()
-                    line = s.recv(1024)
+                    line = receive(s)
                     if line:
                         print line
                         line = line.strip()
