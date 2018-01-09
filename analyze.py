@@ -2,7 +2,6 @@ import json
 import sys
 import math
 from subprocess import Popen, PIPE
-import fileinput
 from collections import defaultdict
 
 class location_server():
@@ -40,14 +39,14 @@ class location_server():
 
     def start_listeners(self):
         self.northeast = Popen("nc -l 8000 | sed 's/^/ne: /'", stdout=PIPE, shell=True)
-        self.southeast = Popen("nc -l 8001 | sed 's/^/se: /'", stdout=PIPE, shell=True)
-        self.southwest = Popen("nc -l 8002 | sed 's/^/sw: /'", stdout=PIPE, shell=True)
+        #self.southeast = Popen("nc -l 8001 | sed 's/^/se: /'", stdout=PIPE, shell=True)
+        #self.southwest = Popen("nc -l 8002 | sed 's/^/sw: /'", stdout=PIPE, shell=True)
 
     def keep_track(self):
         self.start_listeners()
         device_dict = defaultdict(dict)
 
-        for line in fileinput.input(self.northeast.stdout, self.southeast.stdout, self.southwest.stdout):
+        for line in self.northeast.stdout.readlines():
             line = line.strip()
             node = line[:2]
             print node
