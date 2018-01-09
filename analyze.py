@@ -38,15 +38,15 @@ class location_server():
         return math.pow(10, (-40 - rssi)/(10*n))
 
     def start_listeners(self):
-        self.process = Popen("{ nc -l 8000 & nc -l 8001 }", stdout=PIPE, shell=True)
-        #self.southeast = Popen("nc -l 8001 | sed 's/^/se: /'", stdout=PIPE, shell=True)
-        #self.southwest = Popen("nc -l 8002 | sed 's/^/sw: /'", stdout=PIPE, shell=True)
+        self.northeast = Popen("nc -l 8000 | sed 's/^/ne: /'", stdout=PIPE, shell=True)
+        self.southeast = Popen("nc -l 8001 | sed 's/^/se: /'", stdout=PIPE, shell=True)
+        self.southwest = Popen("nc -l 8002 | sed 's/^/sw: /'", stdout=PIPE, shell=True)
 
     def keep_track(self):
-        self.start_listeners()
+        # self.start_listeners()
         device_dict = defaultdict(dict)
 
-        for line in iter(self.process.stdout.readline, ""):
+        for line in sys.stdin.readlines():
             line = line.strip()
             node = line[:2]
             try:
