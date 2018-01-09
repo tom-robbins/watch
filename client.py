@@ -8,7 +8,7 @@ def client(server_ip, server_port):
     s.connect((HOST, PORT))
     for line in sys.stdin:
         print("0")
-        s.send(line)
+        #s.send(line)
     s.close()
 
 def main():
