@@ -38,7 +38,7 @@ class location_server():
         return math.pow(10, (-40 - rssi)/(10*n))
 
     def start_listeners(self):
-        self.process = Popen("nc -l 8000", shell=True)
+        self.process = Popen("nc -l 8000", stdout=PIPE, shell=True)
         #self.southeast = Popen("nc -l 8001 | sed 's/^/se: /'", stdout=PIPE, shell=True)
         #self.southwest = Popen("nc -l 8002 | sed 's/^/sw: /'", stdout=PIPE, shell=True)
 
