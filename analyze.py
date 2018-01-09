@@ -56,9 +56,8 @@ class location_server():
         inputs = [self.northeast2]
         while inputs:
             readable, writable, exceptional = select.select(inputs, [], [])
-            print inputs
             for s in readable:
-                print inputs
+                print readable
                 connection, addr = s.accept()
                 line = connection.recv(1024)
                 if line:
@@ -67,11 +66,8 @@ class location_server():
                     node = s.getsockname()[1]
                     try:
                         j = json.loads(line)
-                    except:
-                        continue
                     device_dict[j['packet']['AdvA']['addr']][node] = j['rssi']
                     print device_dict
-                print inputs
 
 
 serv = location_server()
