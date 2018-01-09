@@ -39,8 +39,8 @@ class location_server():
 
     def start_listeners(self):
         self.northeast = Popen([
-            "nc -l 8000 | sed 's/^/ne: /'", "&&",
-            "nc -l 8001 | sed 's/^/se: /'", "&&",
+            "nc -l 8000 | sed 's/^/ne: /'", "&",
+            "nc -l 8001 | sed 's/^/se: /'", "&",
             "nc -l 8002 | sed 's/^/sw: /'"
         ], stdout=PIPE, shell=True)
         #self.southeast = Popen("nc -l 8001 | sed 's/^/se: /'", stdout=PIPE, shell=True)
