@@ -58,7 +58,8 @@ class location_server():
         while inputs:
             readable, writable, exceptional = select.select(inputs, [], [])
             for s in readable:
-                line = s.recv(1024)
+                connection, addr = s.accept()
+                line = connection.recv(1024).decode("ascii")
                 if line:
                     line = line.strip()
                     node = stream.getsockname()[1]
