@@ -46,7 +46,7 @@ class location_server():
         self.start_listeners()
         device_dict = defaultdict(dict)
 
-        for line in self.northeast.stdout.readlines():
+        for line in iter(self.northeast.stdout.readline, ""):
             line = line.strip()
             node = line[:2]
             print node
