@@ -38,9 +38,9 @@ class location_server():
         return math.pow(10, (-40 - rssi)/(10*n))
 
     def start_listeners(self):
-        self.northeast = Popen("nc -l 8000")
-        self.southeast = Popen("nc -l 8001")
-        self.southwest = Popen("nc -l 8002")
+        self.northeast = Popen("nc -l 8000", shell=True)
+        self.southeast = Popen("nc -l 8001", shell=True)
+        self.southwest = Popen("nc -l 8002", shell=True)
 
     def keep_track(self):
         self.start_listeners()
