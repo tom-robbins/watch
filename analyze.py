@@ -53,7 +53,7 @@ class location_server():
                 j = json.loads(line[4:])
             except:
                 continue
-            device_dict[j['packet']['AdvA']['addr']][node]] = j['rssi']
+            device_dict[j['packet']['AdvA']['addr']][node] = j['rssi']
             print device_dict
 
 
