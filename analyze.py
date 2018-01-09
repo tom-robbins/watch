@@ -47,7 +47,7 @@ class location_server():
         self.northeast2 = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.northeast2.setblocking(0)
         print socket.gethostname()
-        self.northeast2.bind((socket.gethostname(), 8003))
+        self.northeast2.bind(('', 8003))
         self.northeast2.listen(5)
 
     def keep_track(self):
