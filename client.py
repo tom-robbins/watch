@@ -9,7 +9,7 @@ def client(server_ip, server_port):
     msg = 1
     while msg:
         msg = sys.stdin.readline()
-        s.sendall(msg.encode())
+        s.send(msg.encode())
     s.close()
 
 def main():
