@@ -7,6 +7,7 @@ def client(server_ip, server_port):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((HOST, PORT))
     for line in sys.stdin:
+        print line.encode()
         s.send(line.encode())
     s.close()
 
