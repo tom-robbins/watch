@@ -9,7 +9,7 @@ def client(server_ip, server_port):
     for line in sys.stdin:
         #print("0")
         s.send(line)
-    sys.exit(0)
+    print "OOPs"
     s.close()
 
 def main():
