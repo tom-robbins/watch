@@ -3,6 +3,7 @@ import sys
 import math
 from subprocess import Popen, PIPE
 import fileinput
+from collections import defaultdict
 
 class location_server():
     WATCH_ADDR = 'cc:1c:60:a1:18:17'
@@ -44,11 +45,13 @@ class location_server():
 
     def keep_track(self):
         self.start_listeners()
-        device_dict = {}
+        device_dict = defaultdict(dict)
 
         for line in fileinput.input(self.northeast.stdout, self.southeast.stdout, self.southwest.stdout):
             line = line.strip()
             node = line[:2]
+            print node
+            print line
             try:
                 j = json.loads(line[4:])
             except:
