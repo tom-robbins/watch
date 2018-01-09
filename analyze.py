@@ -56,7 +56,9 @@ class location_server():
         inputs = [self.northeast2]
         while inputs:
             readable, writable, exceptional = select.select(inputs, [], [])
+            print inputs
             for s in readable:
+                print inputs
                 connection, addr = s.accept()
                 line = connection.recv(1024)
                 if line:
@@ -69,6 +71,7 @@ class location_server():
                         continue
                     device_dict[j['packet']['AdvA']['addr']][node] = j['rssi']
                     print device_dict
+                print inputs
 
 
 serv = location_server()
