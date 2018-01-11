@@ -103,6 +103,25 @@ def dumpPackets():
     else:
         print '.' * len(packets)
 
+# BLOCKING #
+def dummyScan():
+    while True:
+        devlist = scanForDevices(2)
+        count = 0
+        if len(devlist):
+            print "Found {0} BLE devices:\n".format(str(len(devlist)))
+            # Display a list of devices, sorting them by index number
+            for d in devlist.asList():
+                """@type : Device"""
+                count += 1
+                print "  [{0}] {1} ({2}:{3}:{4}:{5}:{6}:{7}, RSSI = {8})".format(count, d.name,
+                                                                                 "%02X" % d.address[0],
+                                                                                 "%02X" % d.address[1],
+                                                                                 "%02X" % d.address[2],
+                                                                                 "%02X" % d.address[3],
+                                                                                 "%02X" % d.address[4],
+                                                                                 "%02X" % d.address[5],
+                                                                                 d.RSSI)
 
 if __name__ == '__main__':
     """Main program execution point"""
@@ -158,23 +177,9 @@ if __name__ == '__main__':
     if args.verbose:
         print "Sniffer Firmware Version: " + str(mySniffer.swversion)
 
-    while True:
-        devlist = scanForDevices()
-        if len(devlist):
-        print "Found {0} BLE devices:\n".format(str(len(devlist)))
-        # Display a list of devices, sorting them by index number
-        for d in devlist.asList():
-            """@type : Device"""
-            count += 1
-            print "  [{0}] {1} ({2}:{3}:{4}:{5}:{6}:{7}, RSSI = {8})".format(count, d.name,
-                                                                             "%02X" % d.address[0],
-                                                                             "%02X" % d.address[1],
-                                                                             "%02X" % d.address[2],
-                                                                             "%02X" % d.address[3],
-                                                                             "%02X" % d.address[4],
-                                                                             "%02X" % d.address[5],
-                                                                             d.RSSI)
-        time.sleep(2)
+    # TESTING SCAN #
+    dummyScan()
+
     # Scan for devices in range until the user makes a selection
     try:
         d = None
