@@ -1,0 +1,1355 @@
+1515529589.53
+09-Jan-2018 20:26:29 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 20:26:29 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 20:26:29 (+0000) INFO: args: ()
+09-Jan-2018 20:26:29 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 20:26:29 (+0000) INFO: board ID (random): 241
+09-Jan-2018 20:26:29 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 20:26:30 (+0000) INFO: board ID (random): 123
+09-Jan-2018 20:26:30 (+0000) INFO: starting scan
+09-Jan-2018 20:26:30 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 20:26:30 (+0000) INFO: gap in packets, between 60064 and 60110 packet before: [6, 2, 1, 160, 234, 14, 12, 0] packet after: [6, 36, 1, 206, 234, 6, 10, 1, 37, 70, 0, 0, 202, 76, 0, 0, 214, 190, 137, 142, 64, 17, 110, 31, 48, 43, 130, 108, 2, 1, 6, 7, 255, 76, 0, 16, 2, 11, 0, 185, 205, 125]
+09-Jan-2018 20:26:31 (+0000) INFO: gap in packets, between 60197 and 60199 packet before: [6, 48, 1, 37, 235, 6, 10, 1, 38, 68, 0, 0, 100, 1, 0, 0, 214, 190, 137, 142, 64, 29, 90, 8, 226, 241, 26, 105, 2, 1, 6, 19, 255, 76, 0, 12, 14, 0, 49, 194, 142, 21, 243, 200, 9, 235, 2, 171, 237, 24, 248, 52, 57, 109] packet after: [6, 36, 1, 39, 235, 6, 10, 1, 37, 72, 0, 0, 53, 112, 0, 0, 214, 190, 137, 142, 64, 17, 110, 31, 48, 43, 130, 108, 2, 1, 6, 7, 255, 76, 0, 16, 2, 11, 0, 185, 205, 125]
+09-Jan-2018 20:26:31 (+0000) INFO: gap in packets, between 60199 and 14040 packet before: [6, 36, 1, 39, 235, 6, 10, 1, 37, 72, 0, 0, 53, 112, 0, 0, 214, 190, 137, 142, 64, 17, 110, 31, 48, 43, 130, 108, 2, 1, 6, 7, 255, 76, 0, 16, 2, 11, 0, 185, 205, 125] packet after: [6, 39, 1, 216, 54, 6, 10, 1, 37, 72, 0, 0, 164, 128, 0, 0, 214, 190, 137, 142, 64, 20, 40, 183, 198, 145, 38, 75, 2, 1, 26, 10, 255, 76, 0, 16, 5, 1, 144, 211, 1, 34, 30, 173, 153]
+09-Jan-2018 20:26:31 (+0000) INFO: gap in packets, between 14062 and 14080 packet before: [6, 36, 1, 238, 54, 6, 10, 1, 38, 81, 0, 0, 94, 1, 0, 0, 214, 190, 137, 142, 0, 17, 122, 130, 150, 50, 188, 172, 2, 1, 6, 7, 255, 76, 0, 16, 2, 11, 0, 239, 53, 104] packet after: [6, 2, 1, 0, 55, 14, 12, 0]
+09-Jan-2018 20:26:35 (+0000) INFO: starting scan
+09-Jan-2018 20:26:35 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 20:26:59 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 20:26:59 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 20:26:59 (+0000) INFO: args: ()
+09-Jan-2018 20:26:59 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 20:26:59 (+0000) INFO: board ID (random): 89
+09-Jan-2018 20:26:59 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 20:27:00 (+0000) INFO: board ID (random): 155
+09-Jan-2018 20:27:00 (+0000) INFO: starting scan
+09-Jan-2018 20:27:00 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 20:27:00 (+0000) INFO: gap in packets, between 15128 and 15165 packet before: [6, 2, 1, 24, 59, 14, 12, 0] packet after: [6, 2, 1, 61, 59, 14, 12, 0]
+09-Jan-2018 20:27:01 (+0000) INFO: gap in packets, between 15325 and 15333 packet before: [6, 39, 1, 221, 59, 6, 10, 1, 37, 71, 0, 0, 227, 143, 2, 0, 214, 190, 137, 142, 64, 20, 226, 164, 6, 18, 67, 105, 2, 1, 26, 10, 255, 76, 0, 16, 5, 10, 16, 5, 208, 87, 54, 251, 195] packet after: [6, 2, 1, 229, 59, 14, 12, 0]
+09-Jan-2018 20:27:01 (+0000) INFO: gap in packets, between 15333 and 15726 packet before: [6, 2, 1, 229, 59, 14, 12, 0] packet after: [6, 39, 1, 110, 61, 6, 10, 1, 37, 75, 0, 0, 61, 70, 1, 0, 214, 190, 137, 142, 64, 20, 226, 164, 6, 18, 67, 105, 2, 1, 26, 10, 255, 76, 0, 16, 5, 10, 16, 5, 208, 87, 54, 251, 195]
+09-Jan-2018 20:27:01 (+0000) INFO: gap in packets, between 15752 and 15756 packet before: [6, 2, 1, 136, 61, 14, 12, 0] packet after: [6, 2, 1, 140, 61, 14, 12, 0]
+09-Jan-2018 20:27:01 (+0000) INFO: gap in packets, between 15756 and 15759 packet before: [6, 2, 1, 140, 61, 14, 12, 0] packet after: [6, 2, 1, 143, 61, 14, 12, 0]
+09-Jan-2018 20:27:05 (+0000) INFO: starting scan
+09-Jan-2018 20:27:05 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 20:27:10 (+0000) ERROR: UART read error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 152, in _continuouslyPipe
+    packet = self._packetReader.getPacket(timeout = 2)
+  File "/home/pi/watch/SnifferAPI/Packet.py", line 161, in getPacket
+    packetList = self.decodeFromSLIP(timeout)
+  File "/home/pi/watch/SnifferAPI/Packet.py", line 126, in decodeFromSLIP
+    serialByte = self.getSerialByte(timeout)
+  File "/home/pi/watch/SnifferAPI/Packet.py", line 146, in getSerialByte
+    serialByte = self.uart.readByte(timeout)
+  File "/home/pi/watch/SnifferAPI/UART.py", line 58, in readByte
+    readString = self.read(1, timeout)
+  File "/home/pi/watch/SnifferAPI/UART.py", line 47, in read
+    value = self.ser.read(length)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 515, in read
+    raise SerialException('read failed: {}'.format(e))
+SerialException: read failed: (9, 'Bad file descriptor')
+09-Jan-2018 20:27:17 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 20:27:17 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 20:27:17 (+0000) INFO: args: ()
+09-Jan-2018 20:27:17 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 20:27:17 (+0000) INFO: board ID (random): 248
+09-Jan-2018 20:27:17 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 20:27:18 (+0000) INFO: board ID (random): 150
+09-Jan-2018 20:27:18 (+0000) INFO: starting scan
+09-Jan-2018 20:27:18 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 20:27:18 (+0000) INFO: gap in packets, between 16226 and 16278 packet before: [6, 2, 1, 98, 63, 14, 12, 0] packet after: [6, 2, 1, 150, 63, 14, 12, 0]
+09-Jan-2018 20:27:19 (+0000) INFO: gap in packets, between 16416 and 16421 packet before: [6, 36, 1, 32, 64, 6, 10, 1, 37, 73, 0, 0, 40, 168, 1, 0, 214, 190, 137, 142, 64, 17, 196, 6, 244, 216, 7, 74, 2, 1, 6, 7, 255, 76, 0, 16, 2, 11, 0, 184, 185, 168] packet after: [6, 2, 1, 37, 64, 14, 12, 0]
+09-Jan-2018 20:27:19 (+0000) INFO: gap in packets, between 16422 and 16424 packet before: [6, 2, 1, 38, 64, 14, 12, 0] packet after: [6, 2, 1, 40, 64, 14, 12, 0]
+09-Jan-2018 20:27:19 (+0000) INFO: gap in packets, between 16424 and 16505 packet before: [6, 2, 1, 40, 64, 14, 12, 0] packet after: [6, 38, 1, 121, 64, 6, 10, 0, 37, 98, 0, 0, 235, 183, 0, 0, 214, 190, 137, 142, 192, 19, 85, 245, 200, 154, 185, 94, 2, 1, 26, 137, 238, 68, 0, 13, 4, 132, 118, 52, 231, 105, 228, 199]
+09-Jan-2018 20:27:19 (+0000) INFO: gap in packets, between 16531 and 16533 packet before: [6, 36, 1, 147, 64, 6, 10, 1, 38, 80, 0, 0, 94, 1, 0, 0, 214, 190, 137, 142, 64, 17, 196, 6, 244, 216, 7, 74, 2, 1, 6, 7, 255, 76, 0, 16, 2, 11, 0, 184, 185, 168] packet after: [6, 2, 1, 149, 64, 14, 12, 0]
+09-Jan-2018 20:27:19 (+0000) INFO: gap in packets, between 16533 and 16537 packet before: [6, 2, 1, 149, 64, 14, 12, 0] packet after: [6, 2, 1, 153, 64, 14, 12, 0]
+09-Jan-2018 20:27:19 (+0000) INFO: gap in packets, between 16538 and 16544 packet before: [6, 2, 1, 154, 64, 14, 12, 0] packet after: [6, 2, 1, 160, 64, 14, 12, 0]
+09-Jan-2018 20:27:19 (+0000) INFO: starting scan
+09-Jan-2018 20:27:19 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 20:27:43 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 20:27:43 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 20:27:43 (+0000) INFO: args: ()
+09-Jan-2018 20:27:43 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 20:27:43 (+0000) INFO: board ID (random): 10
+09-Jan-2018 20:27:43 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 20:27:44 (+0000) INFO: board ID (random): 82
+09-Jan-2018 20:27:44 (+0000) INFO: starting scan
+09-Jan-2018 20:27:44 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 20:27:44 (+0000) INFO: gap in packets, between 16834 and 16873 packet before: [6, 2, 1, 194, 65, 14, 12, 0] packet after: [6, 36, 1, 233, 65, 6, 10, 1, 39, 71, 0, 0, 94, 1, 0, 0, 214, 190, 137, 142, 64, 17, 196, 6, 244, 216, 7, 74, 2, 1, 6, 7, 255, 76, 0, 16, 2, 11, 0, 184, 185, 168]
+09-Jan-2018 20:27:44 (+0000) INFO: gap in packets, between 17029 and 17036 packet before: [6, 36, 1, 133, 66, 6, 10, 1, 38, 82, 0, 0, 94, 1, 0, 0, 214, 190, 137, 142, 64, 17, 196, 6, 244, 216, 7, 74, 2, 1, 6, 7, 255, 76, 0, 16, 2, 11, 0, 184, 185, 168] packet after: [6, 2, 1, 140, 66, 14, 12, 0]
+09-Jan-2018 20:27:44 (+0000) INFO: gap in packets, between 17037 and 17567 packet before: [6, 2, 1, 141, 66, 14, 12, 0] packet after: [6, 39, 1, 159, 68, 6, 10, 1, 39, 72, 0, 0, 202, 232, 0, 0, 214, 190, 137, 142, 64, 20, 226, 164, 6, 18, 67, 105, 2, 1, 26, 10, 255, 76, 0, 16, 5, 10, 16, 5, 208, 87, 54, 251, 195]
+09-Jan-2018 20:27:46 (+0000) INFO: starting scan
+09-Jan-2018 20:27:46 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 20:27:59 (+0000) INFO: starting scan
+09-Jan-2018 20:27:59 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 20:28:03 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 20:28:03 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 20:28:03 (+0000) INFO: args: ()
+09-Jan-2018 20:28:03 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 20:28:03 (+0000) INFO: board ID (random): 154
+09-Jan-2018 20:28:03 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 20:28:04 (+0000) INFO: board ID (random): 124
+09-Jan-2018 20:28:04 (+0000) INFO: starting scan
+09-Jan-2018 20:28:04 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 20:28:04 (+0000) INFO: gap in packets, between 19332 and 19348 packet before: [6, 2, 1, 132, 75, 14, 12, 0] packet after: [6, 48, 1, 148, 75, 6, 10, 1, 37, 72, 0, 0, 132, 4, 0, 0, 214, 190, 137, 142, 64, 29, 196, 6, 244, 216, 7, 74, 2, 1, 6, 19, 255, 76, 0, 12, 14, 0, 105, 102, 31, 120, 170, 121, 216, 234, 235, 198, 154, 34, 103, 208, 113, 61]
+09-Jan-2018 20:28:06 (+0000) INFO: starting scan
+09-Jan-2018 20:28:06 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 20:28:12 (+0000) ERROR: UART read error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 152, in _continuouslyPipe
+    packet = self._packetReader.getPacket(timeout = 2)
+  File "/home/pi/watch/SnifferAPI/Packet.py", line 161, in getPacket
+    packetList = self.decodeFromSLIP(timeout)
+  File "/home/pi/watch/SnifferAPI/Packet.py", line 126, in decodeFromSLIP
+    serialByte = self.getSerialByte(timeout)
+  File "/home/pi/watch/SnifferAPI/Packet.py", line 146, in getSerialByte
+    serialByte = self.uart.readByte(timeout)
+  File "/home/pi/watch/SnifferAPI/UART.py", line 58, in readByte
+    readString = self.read(1, timeout)
+  File "/home/pi/watch/SnifferAPI/UART.py", line 47, in read
+    value = self.ser.read(length)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 515, in read
+    raise SerialException('read failed: {}'.format(e))
+SerialException: read failed: (9, 'Bad file descriptor')
+09-Jan-2018 20:28:15 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 20:28:15 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 20:28:15 (+0000) INFO: args: ()
+09-Jan-2018 20:28:15 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 20:28:15 (+0000) INFO: board ID (random): 80
+09-Jan-2018 20:28:15 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 20:28:16 (+0000) INFO: board ID (random): 252
+09-Jan-2018 20:28:16 (+0000) INFO: starting scan
+09-Jan-2018 20:28:16 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 20:28:16 (+0000) INFO: gap in packets, between 19959 and 20012 packet before: [6, 2, 1, 247, 77, 14, 12, 0] packet after: [6, 48, 1, 44, 78, 6, 10, 1, 38, 77, 0, 0, 94, 1, 0, 0, 214, 190, 137, 142, 64, 29, 196, 6, 244, 216, 7, 74, 2, 1, 6, 19, 255, 76, 0, 12, 14, 0, 105, 102, 31, 120, 170, 121, 216, 234, 235, 198, 154, 34, 103, 208, 113, 61]
+09-Jan-2018 20:28:18 (+0000) INFO: starting scan
+09-Jan-2018 20:28:18 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 20:28:23 (+0000) INFO: starting scan
+09-Jan-2018 20:28:23 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 20:28:26 (+0000) ERROR: UART read error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 152, in _continuouslyPipe
+    packet = self._packetReader.getPacket(timeout = 2)
+  File "/home/pi/watch/SnifferAPI/Packet.py", line 161, in getPacket
+    packetList = self.decodeFromSLIP(timeout)
+  File "/home/pi/watch/SnifferAPI/Packet.py", line 126, in decodeFromSLIP
+    serialByte = self.getSerialByte(timeout)
+  File "/home/pi/watch/SnifferAPI/Packet.py", line 146, in getSerialByte
+    serialByte = self.uart.readByte(timeout)
+  File "/home/pi/watch/SnifferAPI/UART.py", line 58, in readByte
+    readString = self.read(1, timeout)
+  File "/home/pi/watch/SnifferAPI/UART.py", line 47, in read
+    value = self.ser.read(length)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 515, in read
+    raise SerialException('read failed: {}'.format(e))
+SerialException: read failed: (9, 'Bad file descriptor')
+09-Jan-2018 20:28:30 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 20:28:30 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 20:29:59 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 20:29:59 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 20:29:59 (+0000) INFO: args: ()
+09-Jan-2018 20:29:59 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 20:29:59 (+0000) INFO: board ID (random): 139
+09-Jan-2018 20:29:59 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 22:39:12 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 22:39:12 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 22:39:12 (+0000) INFO: args: ()
+09-Jan-2018 22:39:12 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 22:39:12 (+0000) INFO: board ID (random): 28
+09-Jan-2018 22:39:12 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 22:39:13 (+0000) INFO: board ID (random): 138
+09-Jan-2018 22:39:13 (+0000) INFO: starting scan
+09-Jan-2018 22:39:13 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:39:13 (+0000) INFO: gap in packets, between 21346 and 21384 packet before: [6, 2, 1, 98, 83, 14, 12, 0] packet after: [6, 2, 1, 136, 83, 14, 12, 0]
+09-Jan-2018 22:39:14 (+0000) INFO: gap in packets, between 21486 and 21488 packet before: [6, 36, 1, 238, 83, 6, 10, 1, 38, 80, 0, 0, 142, 45, 0, 0, 214, 190, 137, 142, 0, 17, 122, 130, 150, 50, 188, 172, 2, 1, 6, 7, 255, 76, 0, 16, 2, 11, 0, 239, 53, 104] packet after: [6, 2, 1, 240, 83, 14, 12, 0]
+09-Jan-2018 22:39:14 (+0000) INFO: gap in packets, between 21488 and 21495 packet before: [6, 2, 1, 240, 83, 14, 12, 0] packet after: [6, 2, 1, 247, 83, 14, 12, 0]
+09-Jan-2018 22:39:14 (+0000) INFO: gap in packets, between 21496 and 21503 packet before: [6, 2, 1, 248, 83, 14, 12, 0] packet after: [6, 2, 1, 255, 83, 14, 12, 0]
+09-Jan-2018 22:39:14 (+0000) INFO: gap in packets, between 21503 and 27791 packet before: [6, 2, 1, 255, 83, 14, 12, 0] packet after: [6, 2, 1, 143, 108, 14, 12, 0]
+09-Jan-2018 22:39:14 (+0000) INFO: gap in packets, between 27812 and 27814 packet before: [6, 48, 1, 164, 108, 6, 10, 1, 38, 77, 0, 0, 94, 1, 0, 0, 214, 190, 137, 142, 64, 29, 196, 6, 244, 216, 7, 74, 2, 1, 6, 19, 255, 76, 0, 12, 14, 0, 110, 102, 246, 244, 129, 157, 71, 185, 141, 51, 253, 165, 37, 87, 120, 227] packet after: [6, 2, 1, 166, 108, 14, 12, 0]
+09-Jan-2018 22:39:14 (+0000) INFO: gap in packets, between 27814 and 48671 packet before: [6, 2, 1, 166, 108, 14, 12, 0] packet after: [6, 2, 1, 31, 190, 14, 12, 0]
+09-Jan-2018 22:39:15 (+0000) INFO: starting scan
+09-Jan-2018 22:39:15 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:39:37 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 22:39:37 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 22:39:37 (+0000) INFO: args: ()
+09-Jan-2018 22:39:37 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 22:39:37 (+0000) INFO: board ID (random): 150
+09-Jan-2018 22:39:37 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 22:39:38 (+0000) INFO: board ID (random): 140
+09-Jan-2018 22:39:38 (+0000) INFO: starting scan
+09-Jan-2018 22:39:38 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:39:38 (+0000) INFO: gap in packets, between 49352 and 50995 packet before: [6, 2, 1, 200, 192, 14, 12, 0] packet after: [6, 2, 1, 51, 199, 14, 12, 0]
+09-Jan-2018 22:39:40 (+0000) INFO: starting scan
+09-Jan-2018 22:39:40 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:39:45 (+0000) INFO: starting scan
+09-Jan-2018 22:39:45 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:39:50 (+0000) INFO: starting scan
+09-Jan-2018 22:39:50 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:39:55 (+0000) INFO: starting scan
+09-Jan-2018 22:39:55 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:40:00 (+0000) INFO: starting scan
+09-Jan-2018 22:40:00 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:40:05 (+0000) INFO: starting scan
+09-Jan-2018 22:40:05 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:16 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 22:41:16 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 22:41:16 (+0000) INFO: args: ()
+09-Jan-2018 22:41:16 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 22:41:16 (+0000) INFO: board ID (random): 4
+09-Jan-2018 22:41:16 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 22:41:17 (+0000) INFO: board ID (random): 37
+09-Jan-2018 22:41:17 (+0000) INFO: starting scan
+09-Jan-2018 22:41:17 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:17 (+0000) INFO: gap in packets, between 54169 and 54218 packet before: [6, 2, 1, 153, 211, 14, 12, 0] packet after: [6, 36, 1, 202, 211, 6, 10, 1, 38, 79, 0, 0, 94, 1, 0, 0, 214, 190, 137, 142, 0, 17, 74, 122, 198, 96, 94, 164, 2, 1, 6, 7, 255, 76, 0, 16, 2, 11, 0, 188, 201, 90]
+09-Jan-2018 22:41:18 (+0000) INFO: gap in packets, between 54310 and 54318 packet before: [6, 48, 1, 38, 212, 6, 10, 1, 38, 75, 0, 0, 100, 1, 0, 0, 214, 190, 137, 142, 64, 29, 210, 107, 79, 55, 34, 91, 2, 1, 6, 19, 255, 76, 0, 12, 14, 0, 80, 184, 74, 169, 152, 116, 85, 26, 153, 5, 123, 177, 92, 110, 246, 235] packet after: [6, 2, 1, 46, 212, 14, 12, 0]
+09-Jan-2018 22:41:18 (+0000) INFO: gap in packets, between 54318 and 54325 packet before: [6, 2, 1, 46, 212, 14, 12, 0] packet after: [6, 2, 1, 53, 212, 14, 12, 0]
+09-Jan-2018 22:41:18 (+0000) INFO: gap in packets, between 54325 and 54341 packet before: [6, 2, 1, 53, 212, 14, 12, 0] packet after: [6, 2, 1, 69, 212, 14, 12, 0]
+09-Jan-2018 22:41:18 (+0000) INFO: gap in packets, between 54341 and 54349 packet before: [6, 2, 1, 69, 212, 14, 12, 0] packet after: [6, 2, 1, 77, 212, 14, 12, 0]
+09-Jan-2018 22:41:18 (+0000) INFO: gap in packets, between 54349 and 54358 packet before: [6, 2, 1, 77, 212, 14, 12, 0] packet after: [6, 2, 1, 86, 212, 14, 12, 0]
+09-Jan-2018 22:41:18 (+0000) INFO: gap in packets, between 54358 and 61297 packet before: [6, 2, 1, 86, 212, 14, 12, 0] packet after: [6, 36, 1, 113, 239, 6, 10, 1, 37, 77, 0, 0, 163, 60, 0, 0, 214, 190, 137, 142, 0, 17, 74, 122, 198, 96, 94, 164, 2, 1, 6, 7, 255, 76, 0, 16, 2, 11, 0, 188, 201, 90]
+09-Jan-2018 22:41:18 (+0000) INFO: gap in packets, between 61315 and 61337 packet before: [6, 2, 1, 131, 239, 14, 12, 0] packet after: [6, 2, 1, 153, 239, 14, 12, 0]
+09-Jan-2018 22:41:18 (+0000) INFO: gap in packets, between 61337 and 61430 packet before: [6, 2, 1, 153, 239, 14, 12, 0] packet after: [6, 48, 1, 246, 239, 6, 10, 1, 37, 75, 0, 0, 132, 120, 0, 0, 214, 190, 137, 142, 64, 29, 210, 107, 79, 55, 34, 91, 2, 1, 6, 19, 255, 76, 0, 12, 14, 0, 91, 184, 152, 231, 165, 89, 226, 234, 0, 53, 23, 244, 58, 103, 97, 170]
+09-Jan-2018 22:41:19 (+0000) INFO: starting scan
+09-Jan-2018 22:41:19 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:20 (+0000) INFO: starting scan
+09-Jan-2018 22:41:20 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:20 (+0000) INFO: starting scan
+09-Jan-2018 22:41:20 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:21 (+0000) INFO: starting scan
+09-Jan-2018 22:41:21 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:21 (+0000) INFO: starting scan
+09-Jan-2018 22:41:21 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:22 (+0000) INFO: starting scan
+09-Jan-2018 22:41:22 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:22 (+0000) INFO: starting scan
+09-Jan-2018 22:41:22 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:23 (+0000) INFO: starting scan
+09-Jan-2018 22:41:23 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:23 (+0000) INFO: starting scan
+09-Jan-2018 22:41:23 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:24 (+0000) INFO: starting scan
+09-Jan-2018 22:41:24 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:24 (+0000) INFO: starting scan
+09-Jan-2018 22:41:24 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:25 (+0000) INFO: starting scan
+09-Jan-2018 22:41:25 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:25 (+0000) INFO: starting scan
+09-Jan-2018 22:41:25 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:26 (+0000) INFO: starting scan
+09-Jan-2018 22:41:26 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:26 (+0000) INFO: starting scan
+09-Jan-2018 22:41:26 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:27 (+0000) INFO: starting scan
+09-Jan-2018 22:41:27 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:27 (+0000) INFO: starting scan
+09-Jan-2018 22:41:27 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:28 (+0000) INFO: starting scan
+09-Jan-2018 22:41:28 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:28 (+0000) INFO: starting scan
+09-Jan-2018 22:41:28 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:29 (+0000) INFO: starting scan
+09-Jan-2018 22:41:29 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:29 (+0000) INFO: starting scan
+09-Jan-2018 22:41:29 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:30 (+0000) INFO: starting scan
+09-Jan-2018 22:41:30 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:30 (+0000) INFO: starting scan
+09-Jan-2018 22:41:30 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:31 (+0000) INFO: starting scan
+09-Jan-2018 22:41:31 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:31 (+0000) INFO: starting scan
+09-Jan-2018 22:41:31 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:32 (+0000) INFO: starting scan
+09-Jan-2018 22:41:32 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:32 (+0000) INFO: starting scan
+09-Jan-2018 22:41:32 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:33 (+0000) INFO: starting scan
+09-Jan-2018 22:41:33 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:33 (+0000) INFO: starting scan
+09-Jan-2018 22:41:33 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:34 (+0000) INFO: starting scan
+09-Jan-2018 22:41:34 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:34 (+0000) INFO: starting scan
+09-Jan-2018 22:41:34 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:35 (+0000) INFO: starting scan
+09-Jan-2018 22:41:35 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:35 (+0000) INFO: starting scan
+09-Jan-2018 22:41:35 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:36 (+0000) INFO: starting scan
+09-Jan-2018 22:41:36 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:36 (+0000) INFO: starting scan
+09-Jan-2018 22:41:36 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:37 (+0000) INFO: starting scan
+09-Jan-2018 22:41:37 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:37 (+0000) INFO: starting scan
+09-Jan-2018 22:41:37 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:38 (+0000) INFO: starting scan
+09-Jan-2018 22:41:38 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:38 (+0000) INFO: starting scan
+09-Jan-2018 22:41:38 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:43 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 22:41:43 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 22:41:43 (+0000) INFO: args: ()
+09-Jan-2018 22:41:43 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 22:41:43 (+0000) INFO: board ID (random): 43
+09-Jan-2018 22:41:43 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 22:41:44 (+0000) INFO: board ID (random): 123
+09-Jan-2018 22:41:44 (+0000) INFO: starting scan
+09-Jan-2018 22:41:44 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:44 (+0000) INFO: gap in packets, between 62767 and 62790 packet before: [6, 2, 1, 47, 245, 14, 12, 0] packet after: [6, 48, 1, 70, 245, 6, 10, 1, 39, 81, 0, 0, 100, 1, 0, 0, 214, 190, 137, 142, 64, 29, 210, 107, 79, 55, 34, 91, 2, 1, 6, 19, 255, 76, 0, 12, 14, 0, 94, 184, 159, 149, 80, 195, 121, 214, 244, 170, 38, 50, 197, 57, 253, 174]
+09-Jan-2018 22:41:44 (+0000) INFO: gap in packets, between 62909 and 62916 packet before: [6, 2, 1, 189, 245, 14, 12, 0] packet after: [6, 2, 1, 196, 245, 14, 12, 0]
+09-Jan-2018 22:41:44 (+0000) INFO: gap in packets, between 62916 and 62923 packet before: [6, 2, 1, 196, 245, 14, 12, 0] packet after: [6, 2, 1, 203, 245, 14, 12, 0]
+09-Jan-2018 22:41:44 (+0000) INFO: gap in packets, between 62923 and 62933 packet before: [6, 2, 1, 203, 245, 14, 12, 0] packet after: [6, 2, 1, 213, 245, 14, 12, 0]
+09-Jan-2018 22:41:44 (+0000) INFO: gap in packets, between 62933 and 63021 packet before: [6, 2, 1, 213, 245, 14, 12, 0] packet after: [6, 2, 1, 45, 246, 14, 12, 0]
+09-Jan-2018 22:41:45 (+0000) INFO: gap in packets, between 63045 and 63049 packet before: [6, 48, 1, 69, 246, 6, 10, 1, 39, 82, 0, 0, 100, 1, 0, 0, 214, 190, 137, 142, 64, 29, 210, 107, 79, 55, 34, 91, 2, 1, 6, 19, 255, 76, 0, 12, 14, 0, 94, 184, 159, 149, 80, 195, 121, 214, 244, 170, 38, 50, 197, 57, 253, 174] packet after: [6, 2, 1, 73, 246, 14, 12, 0]
+09-Jan-2018 22:41:46 (+0000) INFO: starting scan
+09-Jan-2018 22:41:46 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:48 (+0000) INFO: starting scan
+09-Jan-2018 22:41:48 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:50 (+0000) INFO: starting scan
+09-Jan-2018 22:41:50 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:52 (+0000) INFO: starting scan
+09-Jan-2018 22:41:52 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:54 (+0000) INFO: starting scan
+09-Jan-2018 22:41:54 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:56 (+0000) INFO: starting scan
+09-Jan-2018 22:41:56 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:41:58 (+0000) INFO: starting scan
+09-Jan-2018 22:41:58 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:42:00 (+0000) INFO: starting scan
+09-Jan-2018 22:42:00 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:42:02 (+0000) INFO: starting scan
+09-Jan-2018 22:42:02 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:42:04 (+0000) INFO: starting scan
+09-Jan-2018 22:42:04 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:42:06 (+0000) INFO: starting scan
+09-Jan-2018 22:42:06 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:42:08 (+0000) INFO: starting scan
+09-Jan-2018 22:42:08 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:42:10 (+0000) INFO: starting scan
+09-Jan-2018 22:42:10 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:42:12 (+0000) INFO: starting scan
+09-Jan-2018 22:42:12 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:42:14 (+0000) INFO: starting scan
+09-Jan-2018 22:42:14 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:42:16 (+0000) INFO: starting scan
+09-Jan-2018 22:42:16 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:42:52 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 22:42:52 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 22:42:53 (+0000) INFO: args: ()
+09-Jan-2018 22:42:53 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 22:42:53 (+0000) INFO: board ID (random): 224
+09-Jan-2018 22:42:53 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 22:42:53 (+0000) INFO: board ID (random): 95
+09-Jan-2018 22:42:53 (+0000) INFO: starting scan
+09-Jan-2018 22:42:53 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:42:53 (+0000) INFO: gap in packets, between 64485 and 64498 packet before: [6, 2, 1, 229, 251, 14, 12, 0] packet after: [6, 39, 1, 242, 251, 6, 10, 1, 39, 71, 0, 0, 110, 1, 0, 0, 214, 190, 137, 142, 64, 20, 191, 209, 90, 46, 145, 108, 2, 1, 26, 10, 255, 76, 0, 16, 5, 3, 16, 63, 186, 219, 106, 148, 191]
+09-Jan-2018 22:42:54 (+0000) INFO: gap in packets, between 64622 and 64629 packet before: [6, 2, 1, 110, 252, 14, 12, 0] packet after: [6, 2, 1, 117, 252, 14, 12, 0]
+09-Jan-2018 22:42:54 (+0000) INFO: gap in packets, between 64629 and 724 packet before: [6, 2, 1, 117, 252, 14, 12, 0] packet after: [6, 2, 1, 212, 2, 14, 12, 0]
+09-Jan-2018 22:42:54 (+0000) INFO: gap in packets, between 747 and 755 packet before: [6, 48, 1, 235, 2, 6, 10, 1, 38, 72, 0, 0, 149, 96, 0, 0, 214, 190, 137, 142, 64, 29, 210, 107, 79, 55, 34, 91, 2, 1, 6, 19, 255, 76, 0, 12, 14, 0, 103, 184, 173, 48, 242, 42, 166, 178, 9, 251, 68, 123, 189, 115, 47, 44] packet after: [6, 2, 1, 243, 2, 14, 12, 0]
+09-Jan-2018 22:42:54 (+0000) INFO: gap in packets, between 755 and 762 packet before: [6, 2, 1, 243, 2, 14, 12, 0] packet after: [6, 2, 1, 250, 2, 14, 12, 0]
+09-Jan-2018 22:42:54 (+0000) INFO: gap in packets, between 762 and 769 packet before: [6, 2, 1, 250, 2, 14, 12, 0] packet after: [6, 2, 1, 1, 3, 14, 12, 0]
+09-Jan-2018 22:42:54 (+0000) INFO: gap in packets, between 769 and 776 packet before: [6, 2, 1, 1, 3, 14, 12, 0] packet after: [6, 2, 1, 8, 3, 14, 12, 0]
+09-Jan-2018 22:42:54 (+0000) INFO: gap in packets, between 776 and 780 packet before: [6, 2, 1, 8, 3, 14, 12, 0] packet after: [6, 39, 1, 12, 3, 6, 10, 1, 37, 84, 0, 0, 114, 112, 0, 0, 214, 190, 137, 142, 64, 20, 191, 209, 90, 46, 145, 108, 2, 1, 26, 10, 255, 76, 0, 16, 5, 11, 16, 63, 186, 219, 162, 77, 102]
+09-Jan-2018 22:42:56 (+0000) INFO: starting scan
+09-Jan-2018 22:42:56 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:42:58 (+0000) INFO: starting scan
+09-Jan-2018 22:42:58 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:44:07 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 22:44:07 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 22:44:07 (+0000) INFO: args: ()
+09-Jan-2018 22:44:07 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 22:44:07 (+0000) INFO: board ID (random): 75
+09-Jan-2018 22:44:07 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 22:44:08 (+0000) INFO: board ID (random): 172
+09-Jan-2018 22:44:08 (+0000) INFO: starting scan
+09-Jan-2018 22:44:08 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:44:08 (+0000) INFO: gap in packets, between 1037 and 1066 packet before: [6, 2, 1, 13, 4, 14, 12, 0] packet after: [6, 48, 1, 42, 4, 6, 10, 1, 37, 85, 0, 0, 128, 182, 2, 0, 214, 190, 137, 142, 64, 29, 210, 107, 79, 55, 34, 91, 2, 1, 6, 19, 255, 76, 0, 12, 14, 0, 103, 184, 173, 48, 242, 42, 166, 178, 9, 251, 68, 123, 189, 115, 47, 44]
+09-Jan-2018 22:44:09 (+0000) INFO: gap in packets, between 1192 and 1197 packet before: [6, 48, 1, 168, 4, 6, 10, 1, 38, 75, 0, 0, 100, 1, 0, 0, 214, 190, 137, 142, 64, 29, 210, 107, 79, 55, 34, 91, 2, 1, 6, 19, 255, 76, 0, 12, 14, 0, 104, 184, 196, 71, 249, 181, 13, 226, 116, 198, 16, 166, 95, 235, 229, 123] packet after: [6, 2, 1, 173, 4, 14, 12, 0]
+09-Jan-2018 22:44:09 (+0000) INFO: gap in packets, between 1197 and 1207 packet before: [6, 2, 1, 173, 4, 14, 12, 0] packet after: [6, 2, 1, 183, 4, 14, 12, 0]
+09-Jan-2018 22:44:09 (+0000) INFO: gap in packets, between 1207 and 5663 packet before: [6, 2, 1, 183, 4, 14, 12, 0] packet after: [6, 2, 1, 31, 22, 14, 12, 0]
+09-Jan-2018 22:44:09 (+0000) INFO: gap in packets, between 5688 and 5690 packet before: [6, 48, 1, 56, 22, 6, 10, 1, 39, 75, 0, 0, 55, 33, 2, 0, 214, 190, 137, 142, 64, 29, 210, 107, 79, 55, 34, 91, 2, 1, 6, 19, 255, 76, 0, 12, 14, 0, 114, 184, 122, 252, 86, 57, 157, 20, 25, 203, 204, 60, 119, 184, 24, 232] packet after: [6, 2, 1, 58, 22, 14, 12, 0]
+09-Jan-2018 22:44:09 (+0000) INFO: gap in packets, between 5690 and 5695 packet before: [6, 2, 1, 58, 22, 14, 12, 0] packet after: [6, 48, 1, 63, 22, 6, 10, 1, 38, 80, 0, 0, 84, 42, 1, 0, 214, 190, 137, 142, 64, 29, 210, 107, 79, 55, 34, 91, 2, 1, 6, 19, 255, 76, 0, 12, 14, 0, 114, 184, 122, 252, 86, 57, 157, 20, 25, 203, 204, 60, 119, 184, 24, 232]
+09-Jan-2018 22:44:10 (+0000) INFO: starting scan
+09-Jan-2018 22:44:10 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:44:12 (+0000) INFO: starting scan
+09-Jan-2018 22:44:12 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:45:08 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 22:45:08 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 22:45:08 (+0000) INFO: args: ()
+09-Jan-2018 22:45:08 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 22:45:08 (+0000) INFO: board ID (random): 137
+09-Jan-2018 22:45:08 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 22:45:09 (+0000) INFO: board ID (random): 67
+09-Jan-2018 22:45:09 (+0000) INFO: starting scan
+09-Jan-2018 22:45:09 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:45:09 (+0000) INFO: gap in packets, between 6172 and 6223 packet before: [6, 2, 1, 28, 24, 14, 12, 0] packet after: [6, 39, 1, 79, 24, 6, 10, 1, 38, 60, 0, 0, 110, 1, 0, 0, 214, 190, 137, 142, 64, 20, 215, 115, 23, 169, 239, 115, 2, 1, 26, 10, 255, 76, 0, 16, 5, 11, 16, 93, 79, 11, 161, 171, 232]
+09-Jan-2018 22:45:09 (+0000) INFO: gap in packets, between 6319 and 6321 packet before: [6, 48, 1, 175, 24, 6, 10, 1, 38, 79, 0, 0, 100, 1, 0, 0, 214, 190, 137, 142, 64, 29, 210, 107, 79, 55, 34, 91, 2, 1, 6, 19, 255, 76, 0, 12, 14, 0, 115, 184, 91, 199, 243, 198, 29, 183, 245, 86, 65, 102, 117, 249, 154, 166] packet after: [6, 2, 1, 177, 24, 14, 12, 0]
+09-Jan-2018 22:45:09 (+0000) INFO: gap in packets, between 6321 and 6332 packet before: [6, 2, 1, 177, 24, 14, 12, 0] packet after: [6, 2, 1, 188, 24, 14, 12, 0]
+09-Jan-2018 22:45:09 (+0000) INFO: gap in packets, between 6332 and 6338 packet before: [6, 2, 1, 188, 24, 14, 12, 0] packet after: [6, 2, 1, 194, 24, 14, 12, 0]
+09-Jan-2018 22:45:09 (+0000) INFO: gap in packets, between 6338 and 6345 packet before: [6, 2, 1, 194, 24, 14, 12, 0] packet after: [6, 2, 1, 201, 24, 14, 12, 0]
+09-Jan-2018 22:45:09 (+0000) INFO: gap in packets, between 6345 and 9947 packet before: [6, 2, 1, 201, 24, 14, 12, 0] packet after: [6, 39, 1, 219, 38, 6, 10, 1, 38, 70, 0, 0, 185, 125, 2, 0, 214, 190, 137, 142, 64, 20, 215, 115, 23, 169, 239, 115, 2, 1, 26, 10, 255, 76, 0, 16, 5, 11, 16, 93, 79, 11, 161, 171, 232]
+09-Jan-2018 22:45:10 (+0000) INFO: gap in packets, between 9971 and 9973 packet before: [6, 2, 1, 243, 38, 14, 12, 0] packet after: [6, 2, 1, 245, 38, 14, 12, 0]
+09-Jan-2018 22:45:10 (+0000) INFO: gap in packets, between 9974 and 9982 packet before: [6, 2, 1, 246, 38, 14, 12, 0] packet after: [6, 2, 1, 254, 38, 14, 12, 0]
+09-Jan-2018 22:45:10 (+0000) INFO: gap in packets, between 9982 and 9989 packet before: [6, 2, 1, 254, 38, 14, 12, 0] packet after: [6, 2, 1, 5, 39, 14, 12, 0]
+09-Jan-2018 22:45:11 (+0000) INFO: starting scan
+09-Jan-2018 22:45:11 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:50:37 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 22:50:37 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 22:50:37 (+0000) INFO: args: ()
+09-Jan-2018 22:50:37 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 22:50:37 (+0000) INFO: board ID (random): 140
+09-Jan-2018 22:50:37 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 22:50:38 (+0000) INFO: board ID (random): 97
+09-Jan-2018 22:50:38 (+0000) INFO: starting scan
+09-Jan-2018 22:50:38 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:50:38 (+0000) INFO: gap in packets, between 10303 and 10331 packet before: [6, 2, 1, 63, 40, 14, 12, 0] packet after: [6, 42, 1, 91, 40, 6, 10, 1, 37, 54, 0, 0, 58, 48, 0, 0, 214, 190, 137, 142, 0, 23, 23, 24, 161, 96, 28, 204, 2, 1, 6, 13, 255, 223, 0, 87, 48, 70, 48, 48, 49, 65, 54, 67, 89, 6, 3, 147]
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:38 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) INFO: gap in packets, between 10475 and 29558 packet before: [6, 39, 1, 235, 40, 6, 10, 1, 37, 92, 0, 0, 53, 91, 0, 0, 214, 190, 137, 142, 64, 20, 234, 223, 62, 226, 132, 114, 2, 1, 26, 10, 255, 76, 0, 16, 5, 10, 16, 53, 232, 211, 226, 171, 141] packet after: [6, 2, 1, 118, 115, 14, 12, 0]
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:39 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:40 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:40 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:40 (+0000) INFO: starting scan
+09-Jan-2018 22:50:40 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:50:40 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:40 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:40 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:40 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:40 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:41 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:41 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:41 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:41 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:41 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:41 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:42 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:42 (+0000) INFO: starting scan
+09-Jan-2018 22:50:42 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:50:42 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:42 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:42 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:42 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:43 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:43 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:43 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:43 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:43 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:43 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:43 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:43 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:43 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:43 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:44 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:44 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:44 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:44 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:44 (+0000) INFO: starting scan
+09-Jan-2018 22:50:44 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:50:44 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:44 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:44 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:45 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:45 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:45 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:45 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:45 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:45 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:45 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:46 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:46 (+0000) INFO: starting scan
+09-Jan-2018 22:50:46 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:50:46 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:46 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:46 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:46 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:50:46 (+0000) ERROR: packet processing error
+Traceback (most recent call last):
+  File "/home/pi/watch/SnifferAPI/SnifferCollector.py", line 141, in _processBLEPacket
+    print "%10X" % packet.blePacket.advAddress, packet.blePacket.name, packet.RSSI, packet.txAdd
+TypeError: %X format: a number is required, not list
+09-Jan-2018 22:51:29 (+0000) INFO: --------------------------------------------------------
+09-Jan-2018 22:51:29 (+0000) INFO: Software version: SVN rev. 1111
+09-Jan-2018 22:51:29 (+0000) INFO: args: ()
+09-Jan-2018 22:51:29 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+09-Jan-2018 22:51:29 (+0000) INFO: board ID (random): 3
+09-Jan-2018 22:51:29 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+09-Jan-2018 22:51:30 (+0000) INFO: board ID (random): 247
+09-Jan-2018 22:51:30 (+0000) INFO: starting scan
+09-Jan-2018 22:51:30 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+09-Jan-2018 22:51:30 (+0000) INFO: gap in packets, between 29854 and 29884 packet before: [6, 2, 1, 158, 116, 14, 12, 0] packet after: [6, 2, 1, 188, 116, 14, 12, 0]
+09-Jan-2018 22:51:31 (+0000) INFO: gap in packets, between 30048 and 31326 packet before: [6, 42, 1, 96, 117, 6, 10, 1, 38, 59, 0, 0, 212, 4, 0, 0, 214, 190, 137, 142, 0, 23, 23, 24, 161, 96, 28, 204, 2, 1, 6, 13, 255, 223, 0, 87, 48, 70, 48, 48, 49, 65, 54, 67, 89, 6, 3, 147] packet after: [6, 42, 1, 94, 122, 6, 10, 1, 38, 60, 0, 0, 21, 114, 2, 0, 214, 190, 137, 142, 0, 23, 23, 24, 161, 96, 28, 204, 2, 1, 6, 13, 255, 223, 0, 87, 48, 70, 48, 48, 49, 65, 54, 67, 89, 6, 3, 147]
+09-Jan-2018 22:51:32 (+0000) INFO: starting scan
+09-Jan-2018 22:51:32 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+10-Jan-2018 02:31:45 (+0000) INFO: --------------------------------------------------------
+10-Jan-2018 02:31:45 (+0000) INFO: Software version: SVN rev. 1111
+10-Jan-2018 02:31:45 (+0000) INFO: args: ()
+10-Jan-2018 02:31:45 (+0000) INFO: kwargs: {'callbacks': [('*', <bound method Sniffer.passOnNotification of <Sniffer(Thread-2, initial)>>)]}
+10-Jan-2018 02:31:45 (+0000) INFO: board ID (random): 150
+10-Jan-2018 02:31:45 (+0000) INFO: Error on port /dev/ttyUSB0. file: Packet.py, line 246: Port is already open.
+10-Jan-2018 02:31:46 (+0000) INFO: board ID (random): 64
+10-Jan-2018 02:31:46 (+0000) INFO: starting scan
+10-Jan-2018 02:31:46 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+10-Jan-2018 02:31:46 (+0000) INFO: gap in packets, between 31463 and 31491 packet before: [6, 2, 1, 231, 122, 14, 12, 0] packet after: [6, 2, 1, 3, 123, 14, 12, 0]
+10-Jan-2018 02:31:46 (+0000) INFO: gap in packets, between 31659 and 31661 packet before: [6, 2, 1, 171, 123, 14, 12, 0] packet after: [6, 2, 1, 173, 123, 14, 12, 0]
+10-Jan-2018 02:31:47 (+0000) INFO: gap in packets, between 31662 and 31666 packet before: [6, 2, 1, 174, 123, 14, 12, 0] packet after: [6, 2, 1, 178, 123, 14, 12, 0]
+10-Jan-2018 02:31:47 (+0000) INFO: gap in packets, between 31667 and 30069 packet before: [6, 2, 1, 179, 123, 14, 12, 0] packet after: [6, 56, 1, 117, 117, 6, 10, 1, 37, 79, 0, 0, 34, 165, 0, 0, 214, 190, 137, 142, 66, 37, 85, 234, 32, 86, 12, 24, 30, 255, 6, 0, 1, 9, 32, 0, 30, 121, 198, 42, 216, 217, 28, 83, 20, 27, 157, 85, 81, 134, 73, 168, 152, 140, 224, 37, 141, 78, 18, 39, 93, 2]
+10-Jan-2018 02:31:47 (+0000) INFO: gap in packets, between 30089 and 30096 packet before: [6, 36, 1, 137, 117, 6, 10, 1, 39, 76, 0, 0, 107, 1, 0, 0, 214, 190, 137, 142, 0, 17, 103, 117, 20, 144, 133, 140, 2, 1, 6, 7, 255, 76, 0, 16, 2, 11, 0, 252, 32, 66] packet after: [6, 2, 1, 144, 117, 14, 12, 0]
+10-Jan-2018 02:31:47 (+0000) INFO: gap in packets, between 30096 and 30100 packet before: [6, 2, 1, 144, 117, 14, 12, 0] packet after: [6, 2, 1, 148, 117, 14, 12, 0]
+10-Jan-2018 02:31:47 (+0000) INFO: gap in packets, between 30100 and 30107 packet before: [6, 2, 1, 148, 117, 14, 12, 0] packet after: [6, 2, 1, 155, 117, 14, 12, 0]
+10-Jan-2018 02:31:47 (+0000) INFO: gap in packets, between 30107 and 30138 packet before: [6, 2, 1, 155, 117, 14, 12, 0] packet after: [6, 2, 1, 186, 117, 14, 12, 0]
+10-Jan-2018 02:31:48 (+0000) INFO: starting scan
+10-Jan-2018 02:31:48 (+0000) INFO: Sent key value to sniffer: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
